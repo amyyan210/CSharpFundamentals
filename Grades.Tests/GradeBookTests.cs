@@ -37,7 +37,7 @@ namespace Grades.Tests
 
             GradeStatistics result = gradebook.ComputeStatistics();
             //Difficult to make assertions about floating point number calculations
-            Assert.Equal(85.1666666667f, result.AverageGrade);
+            Assert.Equal(85.166666667f, result.AverageGrade);
         }
     }
 }
